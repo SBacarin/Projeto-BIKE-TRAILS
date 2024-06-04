@@ -1,4 +1,5 @@
 CRUD – PYTHON – MYSQL (BIKE TRAILS)
+
 Este projeto consiste no desenvolvimento de uma aplicação de cadastro simples de Trilhas de Bike (Bike Trails).
 Irá conter os campos Apelido, Descrição do trajeto, Kilometragem total, Tempo de movimentação, Elevação, Grau de dificuldade e Data da última realização
 No mesmo será utilizada a Linguagem Python em conjunto com banco de dados MySQL.
