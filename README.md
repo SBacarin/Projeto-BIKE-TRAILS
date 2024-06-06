@@ -2,7 +2,7 @@
 
 <p>Este projeto consiste em um software simples de cadastro de Trilhas de Bike (Bike Trails).</p>
 <p>O mesmo contém os campos Apelido, Descrição do trajeto, Kilometragem total, Tempo de movimentação, Elevação, Grau de dificuldade e Data da última realização.</p>
-<p>O objetivo é que o ciclista possa, em seus treinos ou lazer, pesquisar e não repetir a mesma trilha, além de ao iniciar uma nova, já ter o conhecimento de informações como a Kilometragem total, tempo e grau de dificuldade, etc.  É para uso pessoal e também para disponibilizar para amigos ciclistas.</p>
+<p>O objetivo é que o ciclista possa, em seus treinos ou lazer, pesquisar e não repetir a mesma trilha, além de ao iniciar uma nova, já ter o conhecimento de informações como a Kilometragem total, tempo , grau de dificuldade, etc.  É para uso pessoal e também para disponibilizar para amigos ciclistas.</p>
 
 <h3>Ambiente de desenvolvimento</h3>
   <p>IDE - Visual Studio Code</p>
