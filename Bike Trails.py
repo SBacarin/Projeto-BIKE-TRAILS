@@ -1,7 +1,14 @@
-## FUNÇÕES
-# Menu
+#####################################################################################
+# TITULO....: PROJETO BIKE TRAILS
+# DATA......: 06/06/2024
+# CRIADO POR: SERGIO E F BACARIN
+# O QUE FAZ.: CRUD básico Python x Banco de Dados MySql com práticas de código limpo
+######################################################################################
+
+### FUNÇÕES
+# Menu1
 def exibe_menu():
-    os.system('cls') or None
+    limpa_tela()
     print('-' * 21)
     print('**** BIKE TRAILS ****')
     print('-' * 21)
@@ -194,8 +201,13 @@ def exclusao():
     ## fecha o cursor
     cursor.close()
 
+### FUNÇÕES AUXILIARES
 
-# Função para validar a data
+## Limpar a tela 
+def limpa_tela():
+    os.system('cls') or None
+
+## validar a data
 def obter_data_valida(prompt, data_padrao):
     while True:
         data_entrada = input(prompt)
@@ -208,7 +220,7 @@ def obter_data_valida(prompt, data_padrao):
             print("Data inválida. Por favor, insira no formato DD/MM/AAAA.")
 
 
-## INICIO  
+### INICIO  ####
 if __name__ == "__main__":
     # Importando o método para limpar a tela
     import os 
@@ -234,7 +246,8 @@ if __name__ == "__main__":
     else:
         print("Falha na conexão.")
    
-    os.system('cls') or None ## limpa a tela
+    #criando menu de opções
+    limpa_tela()
     while True:
         opcao_menu = exibe_menu()
         if opcao_menu == 1:
@@ -248,7 +261,6 @@ if __name__ == "__main__":
         elif opcao_menu == 5:
             print('Encerrando!!!')
             break
-
 
  # Fechando a conexao
 if bd_conexao.is_connected():
